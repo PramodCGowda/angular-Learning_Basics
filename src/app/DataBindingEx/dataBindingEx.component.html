@@ -1,8 +1,9 @@
 <h2>{{ subTitle }}:</h2>
+
 <h3>One way Data Binding:</h3>
 <input type="text" [disabled]="isDisabled" [value]="luckyNumber" />
 <button (click)="onClick()">Click</button>
 
 <h3>Two way Data Binding:</h3>
-
-
+<input type="text" [(ngModel)]="version" />
+<h4>{{ version }}</h4>

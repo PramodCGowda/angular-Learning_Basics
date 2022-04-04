@@ -9,6 +9,7 @@ export class DataBindingEx implements OnInit {
   isDisabled: boolean = false;
   subTitle: string = 'Exploring DataBinding';
   luckyNumber: number = 1;
+  version: string = 'Angular ' + this.luckyNumber;
 
   constructor() {}
   ngOnInit() {}
